@@ -1,24 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-</head>
-<body>
-  <header><h1>Contact Me</h1></header>
-<hr />
-<p>Tel: 918958623929</p>
-<p>Email: akash22164033@akgec.ac.in</p>
-<p>LinkedIn: <a href="https://www.linkedin.com/in/akash-l-rajput-848b0327a/">Akash L Rajput</a></p>
-<p>GitHub: <a href="https://github.com/akash85246">akash85246</a></p>
-<br />
-<p>Address:</p>
-<p>
-  12,Pushpanjali Orchid<br />
-  Shamshabad Road<br />
-  Agra <br />
-  India <br />
-</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Me – Akash Rajput</title>
+    <style>
+      @media (max-width: 768px) {
+        body {
+          padding: 0;
+        }
+        nav a {
+          font-size: 13px !important;
+        }
+        header {
+          flex-direction: column;
+          align-items: flex-start !important;
+          gap: 8px;
+        }
+        header p {
+          font-size: 13px !important;
+        }
+        .container {
+          padding: 20px !important;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 20px !important;
+        }
+        h2 {
+          font-size: 16px !important;
+        }
+        p,
+        li {
+          font-size: 12px !important;
+        }
+        nav span {
+          font-size: 16px !important;
+        }
+        nav a {
+          padding: 5px 10px !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="background: #f9f9f9; margin: 0; font-family: Arial, sans-serif">
+    <nav
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+        position: sticky;
+        top: 0;
+        margin-bottom: 12px;
+      "
+    >
+      <a
+        href="/"
+        style="
+          font-size: 18px;
+          font-weight: bold;
+          color: #673d91;
+          text-decoration: none;
+        "
+        >Resume</a
+      >
+      <a
+        href="public/Akash Rajput.pdf"
+        download
+        style="
+          color: white;
+          text-decoration: none;
+          font-size: 14px;
+          background-color: #673d91;
+          padding: 6px 12px;
+          border-radius: 4px;
+        "
+      >
+        ⬇ Download Resume
+      </a>
+    </nav>
+    <div
+      style="
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 40px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e0e0e0;
+       
+      "
+    >
+      <h1 style="color: #8055a2; margin-top: 0; text-align: center">
+        Contact Me
+      </h1>
+      <p
+        style="
+          font-size: 14px;
+          color: #555;
+          text-align: center;
+          max-width: 600px;
+          margin: 0 auto 20px;
+        "
+      >
+        Have a question or want to collaborate? Fill out the form below and I’ll
+        get back to you.
+      </p>
+
+      <form
+        action="https://formspree.io/f/mzzvwene"
+        method="POST"
+        style="margin-top: 20px; min-height: 60vh;display: flex;justify-content: space-evenly; flex-direction: column;"
+
+      >
+        <label
+          for="name"
+          style="font-weight: bold; display: block; margin-bottom: 4px"
+          >Name</label
+        >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+          "
+          onfocus="this.style.borderColor='#8055a2'"
+          onblur="this.style.borderColor='#ccc'"
+        />
+
+        <label
+          for="email"
+          style="font-weight: bold; display: block; margin-bottom: 4px"
+          >Email</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="_replyto"
+          required
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+          "
+          onfocus="this.style.borderColor='#8055a2'"
+          onblur="this.style.borderColor='#ccc'"
+        />
+
+        <label
+          for="message"
+          style="font-weight: bold; display: block; margin-bottom: 4px"
+          >Message</label
+        >
+        <textarea
+          id="message"
+          name="message"
+          rows="8"
+          required
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+          "
+          onfocus="this.style.borderColor='#8055a2'"
+          onblur="this.style.borderColor='#ccc'"
+        ></textarea>
+
+        <button
+          type="submit"
+          style="
+            background: #8055a2;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s ease;
+            display: block;
+            width: 100%;
+          "
+          onmouseover="this.style.background='#6e4d8e'"
+          onmouseout="this.style.background='#8055a2'"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+
+    <footer
+      style="
+        background-color: #ffffff;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        border-top: 2px solid #8055a2;
+        margin-top: 30px;
+      "
+    >
+      <h2 style="font-size: 18px; margin-bottom: 10px; color: #333">
+        Quick Links
+      </h2>
+      <p style="font-size: 14px; margin: 4px 0">
+        <a
+          href="https://akash-rajput-dev.vercel.app/"
+          style="color: #8055a2; text-decoration: none"
+          >Portfolio</a
+        >
+        |
+        <a
+          href="https://www.linkedin.com/in/akash-rajput-dev/"
+          style="color: #8055a2; text-decoration: none"
+          >LinkedIn</a
+        >
+        |
+        <a
+          href="mailto:akash.rajput.dev@gmail.com"
+          style="color: #8055a2; text-decoration: none"
+          >Email</a
+        >
+        |
+        <a
+          href="https://github.com/akash85246"
+          style="color: #8055a2; text-decoration: none"
+          >GitHub</a
+        >
+        |
+        <a
+          href="public/contact.html"
+          style="color: #8055a2; text-decoration: none"
+          >Contact Me</a
+        >
+      </p>
+      <p style="font-size: 12px; color: #777; margin-top: 10px">
+        © 2025 Akash Rajput. All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
