@@ -58,7 +58,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://Resume.onrender.com/)
+[![Product Name Screen Shot][product-screenshot]](https://akash85246.github.io/Resume/)
 
 This is my online resume, designed to give recruiters and collaborators a quick overview of my skills, experience, and work.
 It is fully responsive and easy to navigate, with a downloadable PDF of my resume and a Contact Me form that sends messages directly to my email.
